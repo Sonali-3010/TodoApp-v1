@@ -1,5 +1,38 @@
 body {
-  font-family: 'geneva';
-  text-align:center;
-  color:#00ccc7;
+    background-color:  #282c34;
+    align-items: center;
+    text-align:center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    min-height: 100vh;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto',sans-serif;
+}
+
+#taskInput {
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    margin:0 0.3em 0.3em 0;
+}
+
+button {
+  margin:0 0.3em 0.3em 0;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  font-family:'Roboto',sans-serif;
+  font-size: 15px;
+  height: 30px;
+  transition: all 0.2s;
+}
+
+button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  height: 38px;
 }
